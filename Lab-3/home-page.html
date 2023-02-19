@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Piece of Eden</title>
+		
+		<link rel="stylesheet" href="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\css\mystyles.css">
+		<script src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\js\myjavascript.js"></script>
+	
+	</head>
+
+<body class="light_gray_bg">
+	<div id="banner" name="banner" class="banner">
+		Piece of Eden<br>
+		<text class="subtitle">Plant Shop</text>
+		<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\vinelogo.png" style="float:left;padding: 10px 550px;" width=10%/><br>
+		
+		<div class="cart">
+			<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\cart.png"/>
+			<div id="mycart"> </div>
+									
+		</div>
+	</div>
+	
+	<div id="top_menu" name="top_menu">
+		<ul>
+		<li class="menu_item"><a href="#" class="drp">Tall Plants </a>
+			<div class="menu_content">
+				<a href="#">Snake Plant</a><br>
+				<a href="#">Monstera</a><br>
+			</div>
+		</li>
+		
+		
+		<li class="menu_item"><a href="#" class="drp">Succulents </a>	
+			<div class="menu_content">
+				<a href="#">Cactus</a><br>
+				<a href="#">Aloe Vera</a><br>
+			</div>
+		</li>
+		
+		<li class="menu_item"><a href="#" class="drp">Hanging Plants </a>	
+			<div class="menu_content">
+				<a href="#">Devil's Ivy</a><br>
+				<a href="#">Pothos</a><br>
+			</div>
+		</li>
+		
+		<li class="menu_item"><a href="#" class="drp">Potted Flowers </a>	
+			<div class="menu_content">
+				<a href="#">Petunias</a><br>
+				<a href="#">Peonies</a><br>
+			</div>
+		</li>
+		
+		<li class="menu_item"><a href="#" class="drp">Bouquets </a>	
+			<div class="menu_content">
+				<a href="#">Rose Bouquet</a><br>
+				<a href="#">Mixed Bouquet</a><br>
+			</div>
+		</li>
+	
+		</ul>
+	</div>
+	
+	<div id="catalog" name="catalog">  
+		<table width=85% align="center">
+			<tr align="center" class="myDiv"> 
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('1')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\devils_ivy.jpg" width=100% /><br>Devil's Ivy</a>
+
+					<div id="popup1" class="popup_r1">
+						<p align="left"><br>
+							<div id="description_1" class="myText"> <h3>Devil's Ivy Hanging Plant</h3> $19.99 &emsp; 11 Reviews &emsp; Rating: 4.2
+								<br><br> This plant is called devil's vine or devil's <br>
+								ivy because it is almost impossible to kill and it <br>stays green even when kept in the dark. 
+								<br><br><br>Top Review: <b>PlantLover101</b> Bought this for my <br>new apartment. It adds a bit of life to<br> my otherwise lifeless home!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Devils Ivy')"> Add to Cart </button></center><br>
+								
+								<a href = "javascript:void(0)" onclick = "popupclose('1')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>
+						
+						<div id="img1" class="popup_pic">
+							<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\devils_ivy.jpg" width=36%/>
+						</div>
+					</div>
+	
+					<div id="fade1" class="popup_blur_r1"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick ="popupfunction('2')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\snakeplant.jpg" width=100% /><br>Snake Plant</a>
+
+					<div id="popup2" class="popup_r1">
+						<p align="left"><br>
+							<div id="description_2" class="myText"> <h3>Tall Snake Plant</h3> $29.99 &emsp; 3 Reviews &emsp; Rating: 4.6
+								<br><br> This plant is often kept as a houseplant due<br> to its non-demanding maintenance. They <br>require very little water and sun, making them <br>perfect for dark rooms and apartments. 
+								<br><br><br>Top Review: <b>GrannyGertrude</b> Bought this for my <br>granddaughter. She loves it!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Snake Plant')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('2')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>
+						
+						<div id="img2" class="popup_pic">
+							<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\snakeplant.jpg" width=25% />
+						</div>
+					</div>
+	
+					<div id="fade2" class="popup_blur_r1"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('3')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\cactus.jpg" width=100% /><br>Cactus</a>
+
+					<div id="popup3" class="popup_r1">
+						<p align="center"><br>
+							<div id="description_3" class="myText"> <br><h3>Cactus Succulent</h3> $14.99 &emsp; 7 Reviews &emsp; Rating: 4.1
+								<br><br> Almost all cacti are able to handle neglect <br> since they don't need much water.
+								With little<br>care, this cactus will thrive in your home! 
+								<br><br><br>Top Review: <b>FancyFlorist</b> Another great <br>plant for my collection!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Cactus')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('3')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>
+						
+						<div id="img3" class="popup_pic">
+							<br><br><br><img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\cactus.jpg" width=38%/>
+						</div>
+					</div>
+	
+					<div id="fade3" class="popup_blur_r1"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('4')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\mixed bouquet.jpg" width=100% /><br>Mixed Bouquet</a>
+
+					<div id="popup4" class="popup_r1">
+						<p align="center"><br>
+							<div id="description_4" class="myText"> <br><h3>Mixed Flowers Bouquet</h3> $39.99 &emsp; 13 Reviews &emsp; Rating: 4.8
+								<br><br> This beautiful bouquet makes a great gift <br>for all of the important women in your life!
+								<br><br><br>Top Review: <b>TryingBoyfriend</b> Got this for my <br>girlfriend for her birthday! Her smile made <br> my day, so I'm happy with this purchase!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Mixed')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('4')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>	
+						<div id="img4" class="popup_pic">
+							<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\mixed bouquet.jpg" width=37%/>
+						</div>
+					</div>
+	
+					<div id="fade4" class="popup_blur_r1"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('5')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\petunias.jpeg" width=100% /><br>Petunias</a>
+
+					<div id="popup5" class="popup_r1">
+						<p align="center"><br>
+							<div id="description_5" class="myText"> <br><h3>Potted Petunia Flowers</h3> $14.99 &emsp; 4 Reviews &emsp; Rating: 4.3
+								<br><br> You can keep petunias blooming all summer by <br>giving them enough sun, water, and fertilizer. 
+								<br><br><br>Top Review: <b>AspiringGardener</b> Wanted pretty <br>flowers for the flower pots next to my front <br>door. I made a good choice with these!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Petunias')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('5')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>	
+						
+						<div id="img5" class="popup_pic">
+							<br><br><img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\petunias.jpeg" width=37%/>
+						</div>
+					</div>
+	
+					<div id="fade5" class="popup_blur_r1"></div>
+				</td>
+			</tr>
+			<tr align="center" class="myDiv"> 
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('6')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\roses.jpg" width=100% /><br>Roses</a>
+
+					<div id="popup6" class="popup_r2">
+						<p align="center"><br>
+							<div id="description_6" class="myText"><h3>Rose Bouquet</h3> $49.99 &emsp; 35 Reviews &emsp; Rating: 4.9
+								<br><br> Show that special someone in your life how <br>much you love them with this beautiful <br>bouquet of red roses!
+								<br><br><br>Top Review: <b>ForgetfulHusband</b> Forgot my <br>wedding anniversary again...Got my wife 
+								this<br>bouquet the next day and all was forgiven!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Roses')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('6')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>	
+						
+						<div id="img6" class="popup_pic">
+							<br><img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\roses.jpg" width=38%/>
+						</div>
+					</div>
+	
+					<div id="fade6" class="popup_blur_r2"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('7')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\peonies.jpg" width=100% /><br>Peonies</a>
+
+					<div id="popup7" class="popup_r2">
+						<p align="center"><br>
+							<div id="description_7" class="myText"> <h3>Potted Peony Flowers</h3> $19.99 &emsp; 5 Reviews &emsp; Rating: 4.3
+								<br><br> Peonies are symbolic with prosperity, making<br> this a fitting gift for anything from<br>congratulations to housewarmings. 
+								<br><br><br>Top Review: <b>NeighborNancy</b> I buy these<br> for all the new families in the neighborhood.
+								<br>I've always recieved a smile in return!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Peonies')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('7')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>	
+						
+						<div id="img7" class="popup_pic">
+							<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\peonies.jpg" width=38%/>
+						</div>
+					</div>
+	
+					<div id="fade7" class="popup_blur_r2"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('8')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\pothos.jpg" width=100% /><br>Pothos</a>
+
+					<div id="popup8" class="popup_r2">
+						<p align="center"><br>
+							<div id="description_8" class="myText"> <h3>Hanging Pothos Plant</h3> $19.99 &emsp; 9 Reviews &emsp; Rating: 4.5
+								<br><br> Pothos plants make a great addition <br>to your bathroom or office because <br>they can tolerate low light.
+								<br><br><br>Top Review: <b>HeatherLovesHoriculture</b><br> These are so easy to take care of. And <br>oh so pretty to look at!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Pothos')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('8')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>	
+						
+						<div id="img8" class="popup_pic">
+							<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\pothos.jpg" width=38%/>
+						</div>
+					</div>
+	
+					<div id="fade8" class="popup_blur_r2"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('9')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\monstera.jpg" width=100% /><br>Monstera</a>
+
+					<div id="popup9" class="popup_r2">
+						<p align="center"><br>
+							<div id="description_9" class="myText"><h3>Tall Monstera Plant</h3> $44.99 &emsp; 19 Reviews &emsp; Rating: 4.9 
+								<br><br> This plant may be the perfect houseplant <br>for you if you're looking to create a big, <br>bold, tropical feel in your home. 
+								<br><br><br>Top Review: <b>FloraByFelicity</b><br> These remind me of the rainforest, but <br>without all the creepy bugs. 10/10!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Monstera')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('9')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>
+						
+						<div id="img9" class="popup_pic">
+							<br><img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\monstera.jpg" width=40%/>
+						</div>
+					</div>
+	
+					<div id="fade9" class="popup_blur_r2"></div>
+				</td>
+				<td width=16%>
+					<a href = "javascript:void(0)" onclick = "popupfunction('10')" class="linktext">
+					<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\aloevera.jpg" width=100% /><br>Aloe Vera</a>
+
+					<div id="popup10" class="popup_r2">
+						<p align="center"><br>
+							<div id="description_10" class="myText"><h3>Aloe Vera Succulent</h3> $19.99 &emsp; 12 Reviews &emsp; Rating: 4.4
+								<br><br> This plant will look great on your counter <br>and will feel great on your sunburn! <br> 
+								<br><br>Top Review: <b>BeachQueen</b> Bought this <br>to add some life to my bathroom. The week <br>after, I rubbed some 
+								of it on my sunburn.<br> Soothes just as well as the bottled version!<br><br>
+								<center><button id="addText" class="cartbtn" onclick="addToCart('Aloe Vera')"> Add to Cart </button></center><br>
+								<a href = "javascript:void(0)" onclick = "popupclose('10')" class="linktext" style="font-size:14px";>close window</a>
+							</div>
+						</p>
+						
+						<div id="img10" class="popup_pic"><br>
+							<img src="C:\Users\12meg\OneDrive\Desktop\Web-App\Lab-3\img\aloevera.jpg" width=37%/>
+						</div>
+					</div>
+	
+					<div id="fade10" class="popup_blur_r2"></div>
+				</td>
+			</tr>
+	</div>
+	
+</body>
+</html>
